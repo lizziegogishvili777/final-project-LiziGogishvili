@@ -1,0 +1,74 @@
+//* ალბომები *//
+
+.my h1{
+    margin-top: 60px;
+    margin-left: 60px;
+    float: left;
+    align-items: center;
+    font-size: 25px;
+    font-family: Barlow,Open Sans,Lucida Grande,Helvetica Neue,Helvetica,Arial,Sans-serif;
+    line-height: 1;
+
+    
+}
+
+.h1-div{
+    margin-top: 150px;
+    margin-left: 60px;
+
+}
+
+.my h3{
+    font-family: Barlow,Open Sans,Lucida Grande,Helvetica Neue,Helvetica,Arial,Sans-serif;
+    line-height: 1;
+    font-size: 18px;
+}
+
+.section1 {
+    
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    max-width: 900px;
+    width: 100%;
+    align-items: center;
+    @media screen {max-width: 540px;
+        flex-direction: column;
+        
+    }
+}
+
+.card1 {
+    margin-top: 60px;
+    width: 200px;
+    padding: 20px;
+    text-align: center;
+    border: 1px solid #ccc;
+    margin-left: 40px;
+}
+
+.card1 img {
+    width: 100%;
+    height: auto;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.card1 h3 {
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+.card1 p {
+    font-size: 14px;
+    margin: 0;
+}
+
+// * members
+ .container1{
+   max-width:  870px;
+   margin-left: 60px;
+   height: 10px;
+    background-color: rgb(235, 231, 231);
+}
+ 
