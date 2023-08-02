@@ -137,7 +137,7 @@ header {
   display: none;
 }
 
-@media (max-width: 480px) {
+@media (max-width: 650px) {
   .nav-links {
     display: none;
     -webkit-box-orient: vertical;
@@ -382,6 +382,17 @@ header {
   margin-right: 90px;
 }
 
+@media (max-width: 1355px) {
+  .s-7 {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+}
 .container {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -422,4 +433,87 @@ header {
       -ms-flex-direction: column;
           flex-direction: column;
   border-radius: 20cm;
+}
+
+.divi {
+  float: left;
+  margin-top: 40px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-left: 50px;
+  margin-bottom: 20px;
+}
+
+.divi, h2 {
+  line-height: 2;
+  font-size: 20px;
+  font-family: Helvetica;
+  font-style: normal;
+  font-size: larger;
+}
+
+.p-div {
+  margin-top: 20px;
+}
+
+.div-p {
+  font-family: Barlow, Open Sans, Lucida Grande, Helvetica Neue, Helvetica, Arial, Sans-serif;
+  line-height: 1;
+}
+
+.footer {
+  margin-top: 40px;
+  background-color: #130d32;
+  color: #fff;
+  padding: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+  max-width: 1540px;
+  height: 460px;
+}
+
+.footer h3 {
+  font-family: Barlow, Open Sans, Lucida Grande, Helvetica Neue, Helvetica, Arial, Sans-serif;
+  line-height: 1;
+  text-align: left;
+}
+
+.footer-item {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  padding: 10px;
+}
+
+.footer-item img {
+  width: 100%;
+  height: auto;
+}
+
+.footer-item h3 {
+  margin: 10px 0;
+}
+
+.top tracks {
+  background-color: white;
+  font-size: 25px;
+}
+
+.a-div {
+  display: block;
+  float: right;
+  margin-top: 20px;
+  margin-right: 20px;
+  width: 100px;
+  height: 40px;
+  border-radius: 10px;
 }/*# sourceMappingURL=global.css.map */
