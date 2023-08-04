@@ -55,6 +55,15 @@
 
 
 }
+.box1{
+    width: calc(100% / 9 - 10px); 
+    padding: 10px;
+    text-align: center;
+    display: flex;
+    background-color: rgb(195, 4, 4);
+    margin-top: 10px;
+    margin-left: 10px;
+}
 
 
 .box {
@@ -78,6 +87,11 @@
 
 
 //*
+
+
+
+
+
 
 
 
@@ -148,6 +162,80 @@
 }
 
 //* registration *//
+.ifyou{
+    margin-top: 120px;
+    margin-left: 140px;
+
+}
+.ifyou1{
+    font-family: Barlow,Open Sans,Lucida Grande,Helvetica Neue,Helvetica,Arial,Sans-serif;
+    font-size: 25px;
+    color: rgb(155, 1, 1);
+}
 
 
-    
+.log{
+    align-items: center;
+    justify-content: center;
+    margin-top: 80px;
+    margin-left: 150px;
+}
+
+.login-container {
+    width: 300px;
+    padding: 30px;
+    background-color: #ffffff;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+} 
+.container16{
+    max-width: 1000px;
+    height: 15px;
+    background-color: rgb(240, 237, 237);
+    margin-top: 60px;
+    margin-left: 40px;
+    margin-bottom: 50px;
+}
+
+            
+   
+.login-container h2 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 30px;
+}
+.login-container label {
+    display: block;
+    margin-bottom: 10px;
+    color: #666;
+}
+.login-container input[type="text"],
+.login-container input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.login-container button {
+    width: 100%;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+.login-container button:hover {
+    background-color: #45a049;
+}
+.login-container p {
+    text-align: center;
+    margin-top: 10px;
+}
+.login-container a {
+    color: #007bff;
+    text-decoration: none;
+}
+
