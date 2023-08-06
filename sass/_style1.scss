@@ -108,3 +108,18 @@
                 align-items: center;
          }
         }
+
+        @media screen and (max-width: 981px) {
+            .all {
+                transform: translateY(-500px);
+            }
+        }
+        @media screen and (max-width: 430px) {
+            .my h2 {
+                transform: translateY(-200px);
+            }
+        }
+
+
+       
+
