@@ -938,15 +938,16 @@ header {
 
 .card2 {
   margin-top: 60px;
-  width: 500px;
+  width: 530px;
   padding: 20px;
-  height: 200px;
+  height: 210px;
   text-align: center;
   border: 1px solid #ccc;
   margin-left: 40px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  margin-top: 1px;
 }
 
 .swim {
@@ -998,16 +999,20 @@ header {
 }
 
 .card3 {
-  width: 500px;
+  width: 530px;
   margin-left: 55px;
-  height: 200px;
+  height: 250px;
   text-align: center;
   border: 1px solid #ccc;
   vertical-align: middle;
-  margin-top: 77px;
+  text-align: center;
   -webkit-box-align: end;
       -ms-flex-align: end;
           align-items: end;
+  margin-bottom: 30px;
+  -webkit-transform: translate(20px);
+      -ms-transform: translate(20px);
+          transform: translate(20px);
 }
 
 .card3 p {
@@ -1016,4 +1021,12 @@ header {
   font-family: "Courier New", monospace;
   margin-left: 10px;
   margin-right: 10px;
+}
+
+.card3 h2 {
+  margin-top: 10px;
+}
+
+.evry {
+  margin-top: 100px;
 }/*# sourceMappingURL=global.css.map */
