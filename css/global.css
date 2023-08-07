@@ -179,7 +179,7 @@ header {
   }
 }
 .s-1 {
-  background-image: url("../images/poto1.png");
+  background-image: url("../images/img.jpg");
   height: 606px;
   width: 100%;
   background-repeat: no-repeat;
@@ -189,6 +189,63 @@ header {
   margin-top: 100px;
 }
 
+@media (max-width: 771px) {
+  .s-1 {
+    width: 150%;
+  }
+  header {
+    width: 110%;
+  }
+}
+@media (max-width: 759px) {
+  footer {
+    width: 115%;
+  }
+}
+@media (max-width: 712px) {
+  .s-1 {
+    width: 120%;
+  }
+  header {
+    width: 120%;
+  }
+}
+footer {
+  width: 170%;
+}
+
+@media (max-width: 661px) {
+  header {
+    width: 130%;
+  }
+  .s-1 {
+    width: 130%;
+  }
+  footer {
+    width: 170%;
+  }
+}
+@media screen and (max-width: 535px) {
+  .s-1 {
+    width: 180%;
+  }
+}
+@media (max-width: 769px) {
+  header {
+    width: 170%;
+  }
+  .s-1 {
+    width: 170%;
+  }
+  .footer {
+    width: 800px;
+  }
+}
+@media (max-width: 770px) {
+  .footer {
+    width: 200%;
+  }
+}
 .s-1wrapper {
   width: 100%;
   height: 100%;
@@ -477,7 +534,7 @@ header {
       -ms-flex-align: center;
           align-items: center;
   width: 100%;
-  max-width: 1480px;
+  max-width: 1400px;
   height: 460px;
 }
 
@@ -640,6 +697,13 @@ header {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
+  }
+}
+@media screen and (max-width: 1308px) {
+  .all {
+    -webkit-transform: translateY(-550px);
+        -ms-transform: translateY(-550px);
+            transform: translateY(-550px);
   }
 }
 @media screen and (max-width: 981px) {
@@ -1029,4 +1093,27 @@ header {
 
 .evry {
   margin-top: 100px;
+}
+
+@media (max-width: 860px) {
+  .s-30 {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .s-30 .card3 {
+    margin-top: 20px;
+    margin-right: 30px;
+  }
+}
+@media (max-width: 981px) {
+  .s-30 {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
 }/*# sourceMappingURL=global.css.map */

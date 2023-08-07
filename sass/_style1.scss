@@ -109,6 +109,11 @@
          }
         }
 
+        @media screen and (max-width: 1308px) {
+            .all {
+                transform: translateY(-550px);
+            }
+        }
         @media screen and (max-width: 981px) {
             .all {
                 transform: translateY(-500px);
